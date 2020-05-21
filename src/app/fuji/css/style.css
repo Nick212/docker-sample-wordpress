@@ -1,0 +1,192 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body{
+    font-family: 'Open Sans', sans-serif !important;
+ }
+  #nav-mobile{
+    display: block;
+  }
+  #nav-mobile-2{
+    display: none;
+  }
+ .title-banner-home{
+  background-color: #ffffff;
+  margin: 0px 25% 0px 25%;
+  padding: 35px;
+  color: #313131;
+  letter-spacing: 2px;
+  font-size: 30px;
+  border-radius: 60px 60px 60px 60px;
+  border-bottom: 3px solid red;
+
+ }
+
+ .title-banner-home b{
+  /* text-decoration: underline; 
+  text-underline-position: under; */
+  font-size: 35px;
+ }
+ .anuncie-agora a{
+  background-color: #E53935 !important;
+  border-radius: 50px;
+  height: 40px;
+  margin-top: 4px;
+  line-height: 40px;
+ }
+ .anuncie-agora a:hover{
+   /*border: 1px solid #E53935;*/
+   border-radius: 50px;
+   height: 40px;
+   margin-top: 4px;
+   line-height: 40px;
+   background-color: white;
+   color: white;
+ }
+
+ #phone-header{
+   display: none;
+ }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.bankline{
+  border-radius: 10px; 
+  padding: 10px;
+}
+
+.bankline-border{
+  /* border: 1px solid white; 
+  border-radius: 10px; */
+  background-color: white;
+  border-bottom: 4px solid red;
+} 
+
+.bankline-border img{
+  /* border-radius: 10px; */
+  width: 100%;
+  height: 150px;
+}
+.bankline-border p{
+  padding: 10px 10px;
+  
+  
+}
+.bankline-border  .btn-simular{
+  font-size: 15px;  
+  padding-left: 25px;
+  padding-right: 20px;
+}
+.title-detail{
+  font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 30px 20px;
+    background-color: white;
+    border-bottom: 3px solid red;
+    border-radius: 50px;
+
+    /* margin-left: -40px; */
+}
+.label-detail{
+  font-size: 17px;
+  /* background-color: white; */
+  padding: 7px;
+  border-bottom: 2px solid red;
+  
+}
+
+.label-detail label{
+  color:black;
+  border-bottom: none;
+}
+
+.label-detail span{
+  color:black;
+  border-bottom: none;
+}
+
+.atrativos-header{
+  margin-left: 60px;
+  font-size: 18px;line-height: 1.5; text-align: justify;
+}
+
+/*Start Referencias*/
+
+.input-search{
+  border: 2px solid red !important;   
+   padding: 4px 4px 4px 45px !important; 
+   box-shadow: none;font-size: 20px !important;    
+   border-radius: 50px 0px 0px 50px !important;     
+   background-color: white !important;
+}
+.btn-search{
+  margin-left: 0px !important; 
+  height: 57px !important;   
+   line-height: 57px !important; 
+   background-color:#e53935 !important;
+    box-shadow:none !important;    
+    border-radius: 0px 50px 50px 0px!important; 
+}
+.references-description{
+  padding: 0px;
+  padding-left: 40px;
+}
+
+#slider-single-mobile{
+  display: none;
+}
+/*End Referencias*/
+
+/* Start Fale Conosco */
+.content-fale-conosco{
+
+}
+.title-fale-conosco{
+  position: absolute;
+  z-index: 10; 
+  opacity: 0.8; 
+  border-bottom: 2px solid red;
+}
+.content-fale-conosco h4{
+  padding: 25px; margin: 0px;         
+  width: 550px;
+  margin-top: 25px;
+}
+
+.title-contact{
+  margin-top: 113px;position: absolute; z-index: 10; opacity: 0.8; border-bottom: 2px solid red;
+}
+.title-contact h5{
+  padding: 25px; margin: 0px;         width: 430px;
+    margin-top: 25px;
+}
+.title-contact-email{
+  margin-top: 280px;position: absolute; z-index: 10; opacity: 0.8; border-bottom: 2px solid red;
+}
+.title-contact-email h5{
+  padding: 15px; margin: 0px;         width: 430px;
+    margin-top: 25px;
+}
+
+.photocradle-box img{
+  /* width: 748px !important; */
+}
+
+/* end Fale conosco */
+
+#phone-header{
+  margin: 0px 10px 0px 0px;
+  height: 48px;
+  line-height: 48px;
+}

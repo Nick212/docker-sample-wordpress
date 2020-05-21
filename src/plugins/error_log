@@ -1,0 +1,4 @@
+[10-Dec-2019 11:27:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home1/fuji/public_html/wp-content/plugins/hello.php:59
+Stack trace:
+#0 {main}
+  thrown in /home1/fuji/public_html/wp-content/plugins/hello.php on line 59

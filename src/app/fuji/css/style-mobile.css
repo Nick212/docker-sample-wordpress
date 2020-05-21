@@ -1,0 +1,188 @@
+@media only screen and (min-width: 1800px) {
+    .slider{
+        height: 580px !important;
+    }
+    .slider .slides{
+        height: 528px !important;
+    }
+}
+
+@media only screen and (max-width: 1650px) {
+    .slider{
+        height: 550px !important;
+    }
+    .slider .slides{
+        height: 500px !important;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .slider{
+        height: 470px !important;
+    }
+    .slider .slides{
+        height: 440px !important;
+    }
+}
+
+@media only screen and (max-width: 1390px) {
+    .slider{
+        height: 450px !important;
+    }
+    .slider .slides{
+        height: 400px !important;
+    }
+}
+@media only screen and (max-width: 1290px) {
+    .slider{
+        height: 450px !important;
+    }
+    .slider .slides{
+        height: 372px !important;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .slider{
+        height: 420px !important;
+    }
+    .slider .slides{
+        height: 380px !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #nav-mobile-2{
+        display: block;
+    }
+    #phone-header{
+        margin: 0px 10px 0px -25px; 
+    }
+    #parallax-container{
+        display: none;
+    }
+    #menu-desk{
+        display: none;
+    }
+
+    .tabs .tab{
+        min-width: auto !important;
+    }
+
+    .slider{
+        height: 130px !important;
+    }
+    .slider .slides{
+        height: 100px !important;
+    }
+
+    .bankline{
+        margin: 20px auto;
+    }
+    .bankline img{
+        height: auto;
+    }
+
+    .owl-prev{
+        /* position: absolute; */
+        float: left;
+        margin-top: -145px;
+        /* z-index: 999999999; */
+        background-color: black;
+        color: white;
+        padding: 8px 5px 2px 2px;
+        border-radius: 0px 50px 50px 0px;
+        opacity: 0.6;
+    }
+
+    .owl-next{
+        /* position: absolute; */
+        float: right;
+        margin-top: -145px;
+        /* z-index: 999999999; */
+        background-color: black;
+        color: white;
+        padding: 8px 5px 2px 2px;
+        border-radius: 50px 0px 0px 50px;
+        opacity: 0.6;
+    }
+
+    #parallax-container{
+        display: none;
+    }
+    .title-banner-home{
+        margin: 0%;
+        padding: 20px;
+        border-radius: 0px;
+    }
+
+    .input-search{
+        padding-left: 23px !important;
+    }
+   .btn-search{
+        margin-left: 0px !important;
+        height: 54px !important;
+        line-height: 54px !important;
+    }
+    .label-search{
+        display:none;
+    }
+
+    .photocradle-box{
+        position: relative !important;
+        top: 0px !important;
+    }
+
+
+    .photocradle{
+        display: none;
+    }
+    #slider-single-mobile{
+        display: block;
+    }
+    .references-description{
+        padding: 0px;
+        padding-left: 0px;
+    }
+    #slider-single-mobile .indicators .indicator-item{
+        margin: 0 5px; 
+        height: 10px;
+        width: 10px;
+    }
+
+    #slider-single-mobile{
+        /* min-height: 380px !important; */
+    }
+    #slider-single-mobile .slides{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    /* Fale Conosco */
+    .title-fale-conosco{
+        position: relative;
+        margin-top: 0px;
+    }
+    .title-contact{
+        position: relative;
+        /* margin-top: 0px; */
+        margin-top: -26px;
+    }
+    .title-contact-email{
+        position: relative;
+        margin-top: 0px;
+        margin-top: -26px;
+    }
+    .content-fale-conosco h4{
+        padding: 25px; margin: 0px;
+        width: 100%;
+        margin-top: 25px;
+      }
+      .title-contact h5{
+        width: 100%;
+      }
+      .title-contact-email h5{
+        width: 100%;
+      }
+  }
